@@ -555,7 +555,7 @@ def RefreshListing(doRefresh, additionalURL=None):
 							del CCLOUD_PAGE_DATA[:]
 							CCLOUD_PAGE_DATA.append(page_data)
 						except:
-							page_data = '0;cCloud TV Server Currently Offline;Announcement;US;English;https://archive.org/download/cCloud_20151126/cCloud.mp4;http://i.imgur.com/yX8CKx3.png;Today;'
+							page_data = '0;cCloud TV Server Currently Offline '+ webUrl + ';Announcement;US;English;https://archive.org/download/cCloud_20151126/cCloud.mp4;http://i.imgur.com/yX8CKx3.png;Today;'
 							pass
 					
 					count = 0
